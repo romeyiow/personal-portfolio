@@ -1,6 +1,6 @@
 function App() {
   return (
-    <>
+    <div className="pseudo-body">
       <nav id="nav">
         <div className="identifier">
           <div className="wrapper-logo">
@@ -299,7 +299,7 @@ function App() {
           <a href=""><img src="assets/icons/vuesax/bold/sms.png" alt=""/></a>
         </div>
       </footer>
-    </>
+    </div>
   )
 }
 
