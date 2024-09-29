@@ -1,6 +1,6 @@
 function App() {
   return (
-    <>
+    <div className="pseudo-body">
       <nav id="nav">
         <div className="identifier">
           <div className="wrapper-logo"></div>
@@ -379,7 +379,7 @@ function App() {
           </a>
         </div>
       </footer>
-    </>
+    </div>
 
   )
 }

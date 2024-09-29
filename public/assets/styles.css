@@ -42,7 +42,7 @@
 
 }
 
-body {
+.pseudo-body {
     font-family: var(--ff-main);
     background-color: var(--c-body-bg);
     color: var(--c-txt-white);
