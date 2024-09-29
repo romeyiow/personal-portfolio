@@ -1,0 +1,48 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="assets/styles.css">
+  <title>JCI Online Portfolio</title>
+  <script type="module" crossorigin src="/personal-portfolio/assets/index-CKjq-3BX.js"></script>
+</head>
+
+<body>
+  <div id="root"></div>
+  <script>
+
+    var counter = 3;
+
+    var arrayOfImages = [
+      "../assets/images/projects/orange.png",
+      "../assets/images/projects/pink.png",
+      "../assets/images/projects/blue.png"
+
+    ];
+    function changeBackgroundImage(k) {
+      counter += k;
+      if (counter <= 0) {
+        counter = 3;
+      }
+      var divs = document.getElementsByClassName('slide-card');
+      var highlight = document.querySelector('.highlight');
+      for (let i = 0; i < 3; i++) {
+        divs[i].style.backgroundImage = "url('" + arrayOfImages[(i + counter) % 3] + "')";
+        if (i == 2) {
+          highlight.style.backgroundImage = "url('" + arrayOfImages[(i + counter) % 3] + "')";
+        }
+      }
+    }
+
+    var rarr = document.querySelector('#rarr');
+    changeButton.addEventListener('click', changeBackgroundImage(1));
+    var larr = document.querySelector('#larr');
+    changeButton.addEventListener('click', changeBackgroundImage(-1));
+
+  </script>
+
+</body>
+
+</html>
