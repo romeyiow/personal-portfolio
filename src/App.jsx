@@ -157,7 +157,7 @@ function App() {
                   type="button"
                   className="arr-btn"
                   id="larr"
-                  onclick="changeBackgroundImage(-1)"
+                  onClick={() => changeBackgroundImage(-1)}
                 >
                   <img src="assets/icons/arrow-left.png" alt="" />
                 </button>
@@ -165,7 +165,7 @@ function App() {
                   type="button"
                   className="arr-btn"
                   id="rarr"
-                  onclick="changeBackgroundImage(1)"
+                  onClick={() => changeBackgroundImage(1)}
                 >
                   <img src="assets/icons/arrow-right.png" alt="" />
                 </button>
