@@ -1,0 +1,34 @@
+.designs-container {
+    position: absolute;
+    width: 100%;
+    height: inherit;
+    z-index: 2;
+    display: grid;
+
+    border: 1px solid red;
+}
+
+.nav-hero-des {
+    position: absolute;
+    width: auto;
+    /* height: 80vh; */
+    /* border: 1px dotted green; */
+}
+
+.nav-hero-des.left {
+    top: 2.5em;
+    left: 0.1em;
+}
+
+.nav-hero-des.right {
+    top: 140vh;
+    right: 5px;
+    /* height: 80vh; */
+    /* border: 1px dotted green; */
+}
+
+section {
+    position: relative !important;
+    background-color: rgba(red, green, blue, 0);
+    z-index: 10;
+}

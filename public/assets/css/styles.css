@@ -58,6 +58,8 @@
     align-items: center;
     justify-content: center;
     row-gap: 8vw;
+    
+    position: relative;
 }
 
 h1,
@@ -175,6 +177,7 @@ nav {
     top:0;
     background-color: rgba(45, 64, 87, 0.97);
     z-index: var(--z-fixed); */
+    
 }
 
 .sticky {
@@ -201,7 +204,7 @@ nav {
     width: 63px;
     aspect-ratio: 1/1;
 
-    background-image: url(../assets/images/nav/jlogo.png);
+    background-image: url(../images/nav/jlogo.png);
     background-size: cover;
     background-position: 5px;
     background-repeat: no-repeat;
@@ -747,7 +750,7 @@ section.projects {
     /* width: 80%; */
     aspect-ratio: 9/16;
 
-    background-image: url(../assets/images/projects/blue.png);
+    background-image: url(../images/projects/blue.png);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -770,7 +773,7 @@ section.projects {
     grid-area: 1/1/2/6;
     /* height: 70%; */
     aspect-ratio: 9/16;
-    background-image: url(../assets/images/projects/orange.png);
+    background-image: url(../images/projects/orange.png);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -782,7 +785,7 @@ section.projects {
     grid-area: 1/5/2/8;
     /* height: 50%; */
     aspect-ratio: 9/16;
-    background-image: url(../assets/images/projects/pink.png);
+    background-image: url(../images/projects/pink.png);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -794,7 +797,7 @@ section.projects {
     grid-area: 1/7/2/9;
     /* height: 30%; */
     aspect-ratio: 9/16;
-    background-image: url(../assets/images/projects/blue.png);
+    background-image: url(../images/projects/blue.png);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
