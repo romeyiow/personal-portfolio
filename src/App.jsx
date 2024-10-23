@@ -1,13 +1,15 @@
 import React, { useEffect } from 'react';
+import Designs from './components/Designs';
 import Navbar from "./components/Navbar";
 import HeroSection from "./components/HeroSection";
 import StatsSection from "./components/StatsSection";
 import BioSection from "./components/BioSection";
 import SkillsSection from "./components/SkillsSection";
 import ProjectsSection from "./components/ProjectsSection";
-import ReviewsSection from "./components/ReviewsSection";
+import ReviewsSection from "./components/TestimonialsSection";
 import ContactSection from "./components/ContactSection";
 import Footer from "./components/Footer";
+
 
 function App() {
   useEffect(() => {
@@ -51,20 +53,13 @@ function App() {
   return (
 
     <body>
-      <div className="designs-container">
-        <div className="nav-hero-des left">
-          <img src="public/assets/images/design/three-clustered-dots.png" alt="" />
-        </div>
-        <div className="nav-hero-des right">
-          <img src="public/assets/images/design/Group 9079.png" alt="" />
-        </div>
-      </div>
+      <Designs />
       <Navbar />
       <HeroSection />
       <StatsSection />
       <BioSection />
-      <SkillsSection />
       <ProjectsSection />
+      <SkillsSection />
       <ReviewsSection />
       <ContactSection />
       <Footer />

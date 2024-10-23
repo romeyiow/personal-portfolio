@@ -1,6 +1,6 @@
 export default function ContactSection() {
     return (
-        <section className="contact">
+        <section className="contact" id="contact">
             <div className="contact-texts">
                 <div>
                     <span className="elli-marks">Contact Me</span>

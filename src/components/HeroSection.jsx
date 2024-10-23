@@ -23,7 +23,7 @@ export default function HeroSection(){
         </div>
         <div className="graphics">
           <div className="wrapper-dp">
-            <img src="assets/images/hero/dp.png" alt="" />
+            <img className="dp" src="assets/images/hero/dp.png" alt="" />
           </div>
           <div className="socmed">
             <img src="assets/icons/Follow me on_.png" alt="" />

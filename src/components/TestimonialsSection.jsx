@@ -1,10 +1,10 @@
-export default function ReviewsSection() {
+export default function TTestimonialsSection() {
     return (
 
-        <section className="reviews" id="reviews">
+        <section className="reviews" id="testimonials">
             <div className="top-part">
                 <div className="review-texts">
-                    <span className="elli-marks">Portfolio</span>
+                    <span className="elli-marks">Testimonials</span>
                     <h2>
                         Here's What My <span>Clients Say </span> <br />
                         About Me

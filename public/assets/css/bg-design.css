@@ -1,14 +1,14 @@
 .designs-container {
     position:absolute;
     width: 100%;
-    max-width: 100vw;
-    overflow: hidden;
-    height: inherit;
+    /* max-width: 100vw; */
+    /* overflow: hidden; */
+    height: auto;
     z-index: 2;
-    /* display: none; */
+    display: none;
 
     /* border: 1px solid red; */
-    top: 0;
+    /* top: 0; */
 
 }
 
@@ -20,8 +20,14 @@
 }
 
 .nav-hero-des.left {
-    top: 2.5em;
-    left: 0.1em;
+    top:-15px;
+    left:130px;
+}
+
+.nav-hero-des.left img{
+    object-fit: contain;
+    width: 80%;
+    height: auto;
 }
 
 .nav-hero-des.right {

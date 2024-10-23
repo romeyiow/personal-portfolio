@@ -2,10 +2,10 @@ export default function Navbar() {
     return (
         <>
             <nav id="nav">
-                <div className="identifier">
+                <a className="identifier" href="#">
                     <div className="wrapper-logo"></div>
                     <span className="name">EROME IMPERIAL</span>
-                </div>
+                </a>
                 <div className="links">
                     <a href="#bio" className="nav-link">Bio</a>
                     <a href="#projects" className="nav-link">Portfolio</a>
