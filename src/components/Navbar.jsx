@@ -15,7 +15,7 @@ export default function Navbar() {
                     <a href="#contact" className="nav-link">Contact</a>
                 </div>
                 <div className="dlcv">
-                    <a className="dl-btn" href="#">
+                    <a className="dl-btn" href="https://drive.google.com/uc?export=download&id=1klDteliOOZTXhd4Y9mA1Ga6fg533zFeN" download>
                         Download CV
                     </a>
                 </div>

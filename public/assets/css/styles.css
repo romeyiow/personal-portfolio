@@ -183,7 +183,8 @@ section {
 /* ========================================================= */
 
 nav {
-    padding: 0.3em calc(10vw/2);
+    padding: 0.35em calc(15vw/2);
+    /* margin-top:; */
     /* margin: auto; */
     margin-bottom: 2.5vw;
     overflow-x: hidden;
@@ -259,17 +260,21 @@ nav {
 }
 
 .identifier .wrapper-logo {
-    width: 63px;
+    width: 50px;
+    height: auto;
+    object-fit: contain;
     aspect-ratio: 1/1;
 
     background-image: url(../images/nav/jlogo.png);
     background-size: cover;
     background-position: 5px;
     background-repeat: no-repeat;
+    position: absolute;
+    left:-45px;
 }
 
 .identifier .name {
-    font-size: var(--fz-h3);
+    font-size: var(--fz-h4);
     font-family: var(--ff-main);
     color: var(--c-accent);
     font-weight: 700;
@@ -316,8 +321,8 @@ nav {
 .dlcv a.dl-btn {
     display: block;
     text-wrap: nowrap;
-    border-radius: 12px;
-    padding: 16px 24px;
+    border-radius: 8px;
+    padding: 8px 16px;
     border: 2px solid var(--c-accent);
 }
 
@@ -332,7 +337,7 @@ section.hero {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    margin-bottom: 5vh !important;
+    margin-bottom: 5vw !important;
     /* border: 1px solid red; */
 }
 
