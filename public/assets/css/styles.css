@@ -42,12 +42,23 @@
 
 }
 
-.pseudo-body {
+html,
+body {
+    background-color: rgba(45, 64, 87, 1);
+}
+
+/* Adjust this value to match or slightly exceed your sticky nav height */
+html {
+    scroll-padding-top: 6vw;
+    /* Adjust to the height of your sticky nav */
+}
+
+body {
     font-family: var(--ff-main);
     background-color: var(--c-body-bg);
     color: var(--c-txt-white);
     text-rendering: optimizeSpeed;
-    overflow-x: hidden;
+    /* overflow-x: hidden; */
     border: none !important;
 
     max-width: 100%;
@@ -58,7 +69,7 @@
     align-items: center;
     justify-content: center;
     row-gap: 8vw;
-    
+
     position: relative;
 }
 
@@ -163,21 +174,33 @@ ul {
 /* ========================================================= */
 
 nav {
-    padding: 00px calc(15vw/2);
+    padding: 0px calc(15vw/2);
+    /* margin: auto; */
     margin-top: 2.5vw;
-
+    overflow-x: hidden;
     display: flex;
     align-items: center;
     justify-content: space-between;
     flex-wrap: nowrap;
     height: 6vw;
-    width: 100vw;
+    width: 100%;
     /* border: 1px dotted red; */
-    /* position: sticky;
-    top:0;
-    background-color: rgba(45, 64, 87, 0.97);
-    z-index: var(--z-fixed); */
-    
+
+    position: relative;
+    z-index: 100;
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(5px);
+    box-shadow: inset 0 -1px 0 0 rgba(255, 255, 255, 0.01);
+    /* background-color: rgba(255, 255, 255, 0.64); */
+    background-color: rgba(45, 64, 87, 0.64);
+
+}
+
+@supports (position: sticky) {
+    nav {
+        position: sticky;
+        top: 0;
+    }
 }
 
 .sticky {
@@ -187,6 +210,28 @@ nav {
     box-shadow: inset 0 -1px 0 0 rgba(255, 255, 255, 0.1);
     background-color: rgba(255, 255, 255, 0.64);
 }
+
+
+/* some experimental link design */
+
+/* Basic style for navigation links */
+.nav-link {
+    /* color: gray; */
+    text-decoration: none;
+    /* padding: 5px; */
+    transition: color 0.3s;
+}
+
+/* Style for the active navigation link */
+.nav-link.active {
+    /* color: var(--c-accent); */
+    /* Highlight color */
+    /* font-weight: bold; */
+    /* Optional */
+    border-bottom: 2px solid var(--c-accent);
+    /* Optional underline effect */
+}
+
 
 .identifier {
     flex-grow: 0;

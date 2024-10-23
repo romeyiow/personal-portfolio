@@ -1,11 +1,13 @@
 .designs-container {
     position: absolute;
     width: 100%;
+    max-width: 100vw;
+    overflow: hidden;
     height: inherit;
     z-index: 2;
-    display: grid;
+    /* display: none; */
 
-    border: 1px solid red;
+    /* border: 1px solid red; */
 }
 
 .nav-hero-des {
@@ -22,7 +24,7 @@
 
 .nav-hero-des.right {
     top: 140vh;
-    right: 5px;
+    right: -10px;
     /* height: 80vh; */
     /* border: 1px dotted green; */
 }
