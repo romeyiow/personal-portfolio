@@ -4,7 +4,7 @@
 :root {
     /* ================ Colors ================ */
     --c-accent: #FBBF07;
-    --c-body-bg: #2D4057;
+    --c-body-bg: #151B23;
     --c-txt-white: #fcfcfc;
     --c-txt-black: #1E1E1E;
     --c-gray: #C4C4C4;
@@ -46,7 +46,8 @@
 
 html,
 body {
-    background-color: rgba(45, 64, 87, 1);
+    background-color: rgba(21,27,35, 1);
+    
 }
 
 /* Adjust this value to match or slightly exceed your sticky nav height */
@@ -183,7 +184,7 @@ section {
 /* ========================================================= */
 
 nav {
-    padding: 0.35em calc(15vw/2);
+    padding: 0.5em calc(15vw/2);
     /* margin-top:; */
     /* margin: auto; */
     margin-bottom: 2.5vw;
@@ -202,7 +203,7 @@ nav {
     -webkit-backdrop-filter: blur(5px);
     box-shadow: inset 0 -1px 0 0 rgba(255, 255, 255, 0.01);
     /* background-color: rgba(255, 255, 255, 0.64); */
-    background-color: rgba(45, 64, 87, 0.64);
+    background-color: rgba(21,27,35, 0.64);
 
     /* border: 1px dotted red; */
     /* padding-top: 1em; */
@@ -270,7 +271,7 @@ nav {
     background-position: 5px;
     background-repeat: no-repeat;
     position: absolute;
-    left:-45px;
+    left:-47px;
 }
 
 .identifier .name {
@@ -298,7 +299,7 @@ nav {
     justify-content: center;
     color: var(--c-txt-white);
     font-size: var(--fz-pa);
-    padding: 16px;
+    padding: 8px 12px;
     transition: color 0.3s ease;
     /* border: 1px solid black; */
 }
@@ -518,7 +519,7 @@ section.bio {
     height: auto;
     display: grid;
     grid-template-columns: 1fr;
-    background-color: #1D2F46;
+    background-color: rgb(14, 19, 25);
 
     /* border: 2px solid red; */
 }
@@ -547,7 +548,7 @@ section.bio {
 .bio .content {
     margin-top: 2em;
     display: grid;
-    grid-template-columns: 1fr 2fr;
+    grid-template-columns: 2fr 2fr;
     gap: 8em;
 }
 
@@ -567,22 +568,22 @@ section.bio {
     width: 100%;
 }
 
-.bio .left .motto {
+.bio .right .motto{
     /* overflow: hidden; */
     position: relative;
     /* border: 1px solid yellow; */
     height: auto;
     width: 100%;
-    background-color: #1D2F46;
+    background-color: #0e1319;
 }
 
-.bio .left .box {
+.bio .right .box {
     /* overflow: hidden; */
     position: relative;
     border: 5px solid white;
     padding: 24px 1em;
     /* White border */
-    background-color: #1D2F46;
+    background-color: #0e1319;
     /* Dark background color for the box */
     /* color: white; */
     height: auto;
@@ -592,11 +593,11 @@ section.bio {
     font-weight: bold;
 }
 
-.bio .content .left .motto h4 {
+.bio .content .right .motto h4 {
     position: absolute;
     top: -20px;
     left: 0;
-    background-color: #1D2F46;
+    background-color: #0e1319;
     /* Same background color as the box */
     color: var(--c-accent);
     /* Move it slightly above the box to overlap */
@@ -608,7 +609,7 @@ section.bio {
 
 }
 
-.bio .content .left .motto .quote {
+.bio .content .right .motto .quote {
     position: absolute;
 
     /* Height of the quote block */
@@ -633,11 +634,11 @@ section.bio {
     right: 10px;
 }
 
-.bio .content .left .motto .blocker {
+.bio .content .right .motto .blocker {
     position: absolute;
     height: 10px;
     width: 100px;
-    background-color: #1D2F46;
+    background-color: #0e1319;
     /* border: 1px solid red; */
     z-index: 1;
     bottom: 0;
@@ -817,6 +818,7 @@ section.projects {
     justify-content: flex-start; */
     /* border: 1px dotted red; */
     height: auto;
+    /* gap:20px; */
 }
 
 .projects-visuals>div.item {
@@ -824,8 +826,10 @@ section.projects {
 }
 
 .projects-visuals .highlight {
-    /* width: 80%; */
-    aspect-ratio: 9/16;
+    width: 80%;
+    height: auto;
+    object-fit: contain;
+    /* aspect-ratio: 9/16; */
     transform: rotate(-5deg);
     background-image: url(../images/projects/blue.png);
     background-size: cover;
