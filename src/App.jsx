@@ -7,6 +7,7 @@ import BioSection from "./components/BioSection";
 import SkillsSection from "./components/SkillsSection";
 import ProjectsSection from "./components/ProjectsSection";
 import ReviewsSection from "./components/TestimonialsSection";
+import ResumeSection from './components/ResumeSection';
 import ContactSection from "./components/ContactSection";
 import Footer from "./components/Footer";
 
@@ -60,6 +61,7 @@ function App() {
       <BioSection />
       <ProjectsSection />
       <SkillsSection />
+      <ResumeSection />
       <ReviewsSection />
       <ContactSection />
       <Footer />

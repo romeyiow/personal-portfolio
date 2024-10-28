@@ -177,6 +177,12 @@ section {
     border-radius: 50% / 50%;
     padding: 6px 3px;
     margin-bottom: -20px;
+
+}
+
+.text-highlight {
+    font-size: var(--fz-h1);
+    color: var(--c-accent);
 }
 
 /* ========================================================= */
@@ -367,6 +373,7 @@ section.hero {
     font-size: var(--fz-title);
     color: var(--c-accent);
 }
+
 
 .hero .texts>p.desc {
     color: var(--c-txt-white);
@@ -674,7 +681,7 @@ section.skills {
     height: auto;
     display: grid;
     grid-template-columns: 1fr 1fr;
-    margin-bottom: 2em !important;
+    margin-top: 1em !important;
 }
 
 /* ==================== texts ==================== */
@@ -826,10 +833,11 @@ section.skills {
     padding: 24px;
     margin-bottom: 6vw;
     row-gap: 10px;
+    border-bottom: 10px solid white;
 }
 
-.skill-stack h4{
-    font-weight:200;
+.skill-stack h4 {
+    font-weight: 200;
     opacity: 70%;
     display: none;
 }
@@ -1019,6 +1027,85 @@ section.projects {
     background-color: transparent;
     border: none;
 
+}
+
+/* ========================================================= */
+/* ==================== RESUME-SECTION ==================== */
+/* ========================================================= */
+section.resume {
+    width: 100%;
+    padding-left: calc(15vw/2);
+    padding-right: calc(15vw/2);
+    padding-top: 2em;
+    padding-bottom: 4em;
+    height: auto;
+    /* display: flex;
+    flex-direction: column;
+    align-items:flex-start;
+    justify-content: flex-start; */
+    /* background-color: rgb(14, 19, 25); */
+    /* border: 2px solid red; */
+    border-bottom: 10px solid rgba(225, 225,225, 0.9);
+}
+
+.resume .texts {
+    margin-bottom: 3em;
+}
+
+.resume .texts>h2 {
+    font-size: var(--fz-h1);
+}
+
+.resume-content {
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    /* border: 1px dotted green; */
+}
+
+.resume-content .entry-header {
+    font-size: 24px;
+    font-weight: 500;
+    margin-bottom: 12px;
+    margin-top: 12px;
+}
+
+.resume-half {
+    /* border: 1px dotted gray; */
+    display: flex;
+    flex-direction: column;
+    row-gap: 0;
+}
+
+.resume-half .entry-card {
+    /* border: 1px solid brown; */
+    padding: 12px;
+    padding-left: 24px;
+    padding-top: 0px;
+    border-left: 3px solid white;
+    position: relative;
+    margin-left: 10px;
+}
+
+.entry-card .marker {
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    top: 0px;
+    left: -11.5px;
+    z-index: 10;
+    border: 3px solid white;
+    border-radius: 50%;
+    background-color: #151B23;
+}
+
+.entry-card .card-header {
+    font-size: 20px;
+}
+
+.entry-card .card-desc {
+    font-size: 16px;
+    font-weight: 200px;
 }
 
 /* ========================================================= */
