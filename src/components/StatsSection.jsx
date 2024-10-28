@@ -2,18 +2,18 @@ export default function StatsSection() {
     return (
         <section className="stats" id="stats">
         <div className="item">
-          <h2>80+</h2>
-          <p>Satisfied clients</p>
+          <h2>900+</h2>
+          <p>Coding Hours Logged</p>
         </div>
         <div className="divider-line" />
         <div className="item">
-          <h2>200+</h2>
-          <p>Projects completed</p>
+          <h2>13</h2>
+          <p>Open Source Contributions</p>
         </div>
         <div className="divider-line" />
         <div className="item">
-          <h2>99+</h2>
-          <p>Reviews given</p>
+          <h2>7</h2>
+          <p>Professional Certifications</p>
         </div>
       </section>
     )

@@ -5,7 +5,7 @@ export default function HeroSection(){
           <span className="elli-marks">Welcome</span>
           <h1 className="">
             Avid <span>Learner</span>. Problem
-            <span>Solver</span>. <span>Ready</span> to serve!
+            <span>Solver</span>.  <span>Ready</span> to serve!
           </h1>
           <p className="desc">
             Hi! I am Jers, a full stack web developer. I have been helping
@@ -13,11 +13,12 @@ export default function HeroSection(){
             years now.{" "}
           </p>
           <div className="cta-btns">
-            <a className="hire" href="">
+            <a className="hire" href="#contact">
               Hire Me
             </a>
-            <a className="view-proj" href="">
-              View Projects <img src="assets/icons/go-to-arrow.png" alt="" />
+            <a className="view-proj" href="#projects">
+              View Projects 
+              {/* <img src="assets/icons/go-to-arrow.png" alt="" /> */}
             </a>
           </div>
         </div>
