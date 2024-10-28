@@ -674,6 +674,7 @@ section.skills {
     height: auto;
     display: grid;
     grid-template-columns: 1fr 1fr;
+    margin-bottom: 2em !important;
 }
 
 /* ==================== texts ==================== */
@@ -753,23 +754,91 @@ section.skills {
 }
 
 .card1 {
-    transform: rotate(-5deg);
-}
-
-.card2 {
-    transform: rotate(-10deg);
-}
-.card3 {
     transform: rotate(5deg);
 }
 
+.card2 {
+    transform: rotate(5deg);
+}
+
+.card3 {
+    transform: rotate(-5deg);
+}
+
 /* ==================== SKILLS: LOWER PART ==================== */
-.skills-lower{
-    border: 1px solid red;
-    display: none;
+.skill-show {
+    /* border: 1px solid red; */
+    margin-top: 5em;
+    /* display: none; */
+    display: flex;
+    flex-direction: column;
+    padding: 24px;
+    row-gap: 20px;
+}
+
+.skill-show .chart {
+    /* border: 1px dotted green; */
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    row-gap: 5px;
+}
+
+.skill-show .chart h5 {
+    font-size: 16px;
+    font-weight: 100;
+
+}
+
+.skill-level-cont {
+    width: 100%;
+    height: 10px;
+    border-radius: 10px;
+    background-color: #FFFFFF;
+    position: relative;
+}
+
+.skill-level-ind {
+    width: 50%;
+    height: 10px;
+    background: var(--c-accent);
+    position: absolute;
+    left: 0;
+    border-radius: 10px;
+    z-index: 10;
+}
+
+.skill-show h4 {
+    font-size: 24px;
+    font-weight: 500;
+    /* margin-bottom: 1em; */
 }
 
 
+.skill-stack {
+    background-color: #0D1117;
+    width: 100%;
+    /* height: 120px; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 24px;
+    margin-bottom: 6vw;
+    row-gap: 10px;
+}
+
+.skill-stack h4{
+    font-weight:200;
+    opacity: 70%;
+    display: none;
+}
+
+.skill-stack img {
+    object-fit: contain;
+    width: auto;
+    height: 90px;
+}
 
 /* ========================================================= */
 /* ==================== PROJECT-SECTION ==================== */

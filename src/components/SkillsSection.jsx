@@ -44,30 +44,104 @@ function UpperPart() {
 function LowerPart() {
     return (
         <>
-            <div className="skills-lower">
-                <div className="tech-skills">
-                    <h4>Technical Skills</h4>
-                    <div className="tech-skill tech-skill1">
-                        <h5>HTML, CSS, JavaScript</h5>
-                        <div className="skill-level-cont">
-                            <div className="skill-level-ind"></div>
-                        </div>
+            <div className="skill-show tech-skills">
+                <h4>Technical Skills</h4>
+                <div className="chart tech-skill tech-skill1">
+                    <h5>Web Development </h5>
+                    <div className="skill-level-cont">
+                        <div className="skill-level-ind"></div>
                     </div>
                 </div>
-                <div className="soft-skills">
-                    <h4>Soft Skills</h4>
+                <div className="chart tech-skill tech-skill1">
+                    <h5>Web Development </h5>
+                    <div className="skill-level-cont">
+                        <div className="skill-level-ind"></div>
+                    </div>
+                </div>
+                <div className="chart tech-skill tech-skill1">
+                    <h5>Web Development </h5>
+                    <div className="skill-level-cont">
+                        <div className="skill-level-ind"></div>
+                    </div>
+                </div>
+                <div className="chart tech-skill tech-skill1">
+                    <h5>Web Development </h5>
+                    <div className="skill-level-cont">
+                        <div className="skill-level-ind"></div>
+                    </div>
+                </div>
+                <div className="chart tech-skill tech-skill1">
+                    <h5>Web Development </h5>
+                    <div className="skill-level-cont">
+                        <div className="skill-level-ind"></div>
+                    </div>
+                </div>
+
+            </div>
+            <div className="skill-show  soft-skills">
+                <h4>Soft Skills</h4>
+                <div className="chart tech-skill tech-skill1">
+                    <h5>Web Development </h5>
+                    <div className="skill-level-cont">
+                        <div className="skill-level-ind"></div>
+                    </div>
+                </div>
+                <div className="chart tech-skill tech-skill1">
+                    <h5>Web Development </h5>
+                    <div className="skill-level-cont">
+                        <div className="skill-level-ind"></div>
+                    </div>
+                </div>
+                <div className="chart tech-skill tech-skill1">
+                    <h5>Web Development </h5>
+                    <div className="skill-level-cont">
+                        <div className="skill-level-ind"></div>
+                    </div>
+                </div>
+                <div className="chart tech-skill tech-skill1">
+                    <h5>Web Development </h5>
+                    <div className="skill-level-cont">
+                        <div className="skill-level-ind"></div>
+                    </div>
+                </div>
+                <div className="chart tech-skill tech-skill1">
+                    <h5>Web Development </h5>
+                    <div className="skill-level-cont">
+                        <div className="skill-level-ind"></div>
+                    </div>
                 </div>
             </div>
+
+        </>
+    )
+}
+
+
+function SkillStack() {
+    return (
+        <>
+            <div className="skill-stack">
+                <h4>Skill Stack</h4>
+                <div>
+
+                    <img src="public\assets\images\skills\skill-stack.png" alt="" />
+                </div>
+
+            </div>
+
         </>
     )
 }
 export default function SkillsSection() {
     return (
+        <>
+            <section className="skills" id="skills">
+                <UpperPart />
+                <LowerPart />
+            </section>
+            <SkillStack />
+        </>
 
-        <section className="skills" id="skills">
-            <UpperPart />
-            <LowerPart />
-        </section>
 
     )
 }
