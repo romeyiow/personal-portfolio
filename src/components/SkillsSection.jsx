@@ -22,8 +22,8 @@ function UpperPart() {
                 <div className="wrapper">
                     <div className="card card1">
                         <img src="assets/icons/diamond.png" alt="" />
-                        <h2>UI &amp; UX Designing</h2>
-                        <p>Create user interface design with unique &amp; modern ideas </p>
+                        <h2>AI Integration</h2>
+                        <p>Need AI in your website? I got your back!</p>
                     </div>
                     <div className="card card2">
                         <img src="assets/icons/pulse-outline.png" alt="" />
@@ -47,33 +47,33 @@ function LowerPart() {
             <div className="skill-show tech-skills">
                 <h4>Technical Skills</h4>
                 <div className="chart tech-skill tech-skill1">
-                    <h5>Web Development </h5>
+                    <h5>Front-End Technologies ( HTML, CSS, JavaScript, React ) </h5>
                     <div className="skill-level-cont">
-                        <div className="skill-level-ind"></div>
+                        <div className="skill-level-ind" style={{ width: '88%' }}></div>
                     </div>
                 </div>
                 <div className="chart tech-skill tech-skill1">
-                    <h5>Web Development </h5>
+                    <h5>Back-End Development (Node.js, Python, Ruby, PHP) </h5>
                     <div className="skill-level-cont">
-                        <div className="skill-level-ind"></div>
+                        <div className="skill-level-ind" style={{ width: '70%' }}></div>
                     </div>
                 </div>
                 <div className="chart tech-skill tech-skill1">
-                    <h5>Web Development </h5>
+                    <h5>Version Control (Git)</h5>
                     <div className="skill-level-cont">
-                        <div className="skill-level-ind"></div>
+                        <div className="skill-level-ind" style={{ width: '99%' }}></div>
                     </div>
                 </div>
                 <div className="chart tech-skill tech-skill1">
-                    <h5>Web Development </h5>
+                    <h5>Data Science & Machine</h5>
                     <div className="skill-level-cont">
-                        <div className="skill-level-ind"></div>
+                        <div className="skill-level-ind" style={{ width: '40%' }}></div>
                     </div>
                 </div>
                 <div className="chart tech-skill tech-skill1">
-                    <h5>Web Development </h5>
+                    <h5>Database Management (SQL, NoSQL)</h5>
                     <div className="skill-level-cont">
-                        <div className="skill-level-ind"></div>
+                        <div className="skill-level-ind" style={{ width: '70%' }}></div>
                     </div>
                 </div>
 
@@ -81,33 +81,33 @@ function LowerPart() {
             <div className="skill-show  soft-skills">
                 <h4>Soft Skills</h4>
                 <div className="chart tech-skill tech-skill1">
-                    <h5>Web Development </h5>
+                    <h5>Problem-Solving </h5>
                     <div className="skill-level-cont">
-                        <div className="skill-level-ind"></div>
+                        <div className="skill-level-ind" style={{ width: '90%' }}></div>
                     </div>
                 </div>
                 <div className="chart tech-skill tech-skill1">
-                    <h5>Web Development </h5>
+                    <h5>Communication </h5>
                     <div className="skill-level-cont">
-                        <div className="skill-level-ind"></div>
+                        <div className="skill-level-ind" style={{ width: '80%' }}></div>
                     </div>
                 </div>
                 <div className="chart tech-skill tech-skill1">
-                    <h5>Web Development </h5>
+                    <h5>Time Management </h5>
                     <div className="skill-level-cont">
-                        <div className="skill-level-ind"></div>
+                        <div className="skill-level-ind" style={{ width: '80%' }}></div>
                     </div>
                 </div>
                 <div className="chart tech-skill tech-skill1">
-                    <h5>Web Development </h5>
+                    <h5>Resourcefulness </h5>
                     <div className="skill-level-cont">
-                        <div className="skill-level-ind"></div>
+                        <div className="skill-level-ind" style={{ width: '90%' }}></div>
                     </div>
                 </div>
                 <div className="chart tech-skill tech-skill1">
-                    <h5>Web Development </h5>
+                    <h5>Team Collaboration</h5>
                     <div className="skill-level-cont">
-                        <div className="skill-level-ind"></div>
+                        <div className="skill-level-ind" style={{ width: '70%' }}></div>
                     </div>
                 </div>
             </div>

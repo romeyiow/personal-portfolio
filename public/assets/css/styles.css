@@ -6,7 +6,7 @@
     --c-accent: #FBBF07;
     --c-body-bg: #151B23;
     --c-txt-white: #fcfcfc;
-    --c-txt-black: #1E1E1E;
+    --c-txt-black: #0e1319;
     --c-gray: #C4C4C4;
 
     /* ================ Font size (fz) and font family (ff) ================ */
@@ -806,7 +806,7 @@ section.skills {
 }
 
 .skill-level-ind {
-    width: 50%;
+   
     height: 10px;
     background: var(--c-accent);
     position: absolute;
