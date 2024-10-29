@@ -22,8 +22,7 @@ export default function ResumeSection() {
                                     HTML5, and CSS3. Developed two big projects over the
                                     span of four years. Devoted to lifelong learning and
                                     personal development.
-
-                                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis, ipsa. Repellendus sit quo suscipit ad aspernatur veritatis unde incidunt quibusdam aperiam dolores porro quaerat, ex dolorum eius ipsam ipsa itaque!
+                                    Over the years, I've dived into numerous projects, constantly honing my skills and expanding my knowledge. I'm excited about the opportunity to help businesses thrive in the digital age and can't wait to contribute to meaningful projects. Feel free to explore and test my works :)
                                     <br /><br />
 
                                     📧 jeromeimperial@gmail.com<br />
@@ -59,26 +58,25 @@ export default function ResumeSection() {
                             <h3 className="entry-header">Professional Experience</h3>
                             <div className="entry-card">
                                 <div className="marker"></div>
-                                <h4 className="card-header">Senior graphic design specialist
-                                </h4>
+                                <h4 className="card-header">Full Stack Developer</h4>
                                 <p className="card-desc">
-                                    2019 - Present <br />
-                                    Experion, New York, NY  <br />
-                                    <br />⚜️ Lead in the design, development, and implementation of the graphic, layout, and production communication materials
-                                    <br />⚜️ Delegate tasks to the 7 members of the design team and provide counsel on all aspects of the project.
-                                    <br />⚜️ Supervise the assessment of all graphic materials in order to ensure quality and accuracy of the design
-                                    <br />⚜️ Oversee the efficient use of production project budgets ranging from $2,000 - $25,000
+                                    January 2021 - Present <br />
+                                    Tech Solutions Inc. <br />
+                                    <br />⚜️ Designed and implemented RESTful APIs and integrated third-party services, boosting application performance by 30%.
+                                    <br />⚜️ Led the development of an e-commerce platform using React, Node.js, and MongoDB, reducing page load time by 20% with optimized code and caching.
+                                    <br />⚜️ Integrated OAuth2 and JWT for secure user authentication across web and mobile applications.
+                                    {/* <br />⚜️ Collaborated with UI/UX designers to enhance the user experience on web and mobile, achieving a 15% increase in user engagement. */}
                                 </p>
                             </div>
                             <div className="entry-card">
                                 <div className="marker"></div>
-                                <h4 className="card-header">Graphic design specialist</h4>
+                                <h4 className="card-header">Web Developer (Front-End)</h4>
                                 <p className="card-desc">
-                                    2017 - 2018 <br />
-                                    Stepping Stone Advertising, New York, NY <br />
-                                    <br />⚜️Developed numerous marketing programs (logos, brochures,infographics, presentations, and advertisements).
-                                    <br />⚜️Managed up to 5 projects at a given time while under pressure
-                                    <br />⚜️Recommended and consulted with clients on the most appropriate graphic design
+                                    August 2019 - December 2020 <br />
+                                    Digital Wave <br />
+                                    <br />⚜️Built responsive and accessible UIs using React and Sass, improving SEO scores by 25% for various client websites.
+                                    <br />⚜️Converted Figma prototypes into interactive pages with animations and dynamic data binding, resulting in 10% faster turnaround times.
+                                    <br />⚜️Conducted A/B testing to analyze user interaction, leading to a redesign that increased user retention by 18%.
                                 </p>
                             </div>
                         </div>

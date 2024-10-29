@@ -4,6 +4,7 @@ import Navbar from "./components/Navbar";
 import HeroSection from "./components/HeroSection";
 import StatsSection from "./components/StatsSection";
 import BioSection from "./components/BioSection";
+import NewBio from './components/NewBio';
 import SkillsSection from "./components/SkillsSection";
 import ProjectsSection from "./components/ProjectsSection";
 import ReviewsSection from "./components/TestimonialsSection";
@@ -59,6 +60,7 @@ function App() {
       <HeroSection />
       <StatsSection />
       <BioSection />
+      {/* <NewBio /> */}
       <ProjectsSection />
       <SkillsSection />
       <ResumeSection />

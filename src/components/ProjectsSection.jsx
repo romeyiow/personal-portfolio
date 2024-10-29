@@ -21,7 +21,7 @@ export default function ProjectsSection() {
         "Web Development"
     ];
     const arrayOfDescs = [
-        "Check out this responsive website donation website.",
+        "Check out this responsive donation website.",
         "Here's the first look of my personal portfolio website.",
         "Check out my these websites I have created over the past 4 years."
     ];
