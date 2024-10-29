@@ -42,17 +42,20 @@
     /* height: 100%; */
     /* border:2px dotted red; */
     /* max-width: 100vw!important; */
+
 }
 
 html,
 body {
     background-color: rgba(21, 27, 35, 1);
 
+    scroll-behavior: smooth;
+
 }
 
 /* Adjust this value to match or slightly exceed your sticky nav height */
 html {
-    scroll-padding-top: 7vw;
+    scroll-padding-top: 5.5vw;
     /* Adjust to the height of your sticky nav */
 }
 
@@ -190,8 +193,8 @@ section {
 /* ========================================================= */
 
 nav {
-    padding: 0.5em calc(15vw/2);
-    /* margin-top:; */
+    padding: 0.85em calc(20vw/2);
+    /* padding-top:1em; */
     /* margin: auto; */
     margin-bottom: 2.5vw;
     overflow-x: hidden;
@@ -389,6 +392,7 @@ section.hero {
     align-items: center;
     justify-content: flex-start;
     gap: 20px;
+    z-index: 3;
 }
 
 .hero .texts .cta-btns>a.hire {
@@ -488,7 +492,7 @@ section.stats {
     align-items: center;
     justify-content: space-between;
     height: auto;
-    /* margin: 5vw auto; */
+    margin-bottom: 3vw;
 }
 
 .divider-line {
@@ -513,6 +517,97 @@ section.stats {
     font-weight: 400;
     /* line-height: 28px; */
 }
+
+/* ========================================================= */
+/* ==================== NEW BIO-SECTION ==================== */
+/* ========================================================= */
+.newbio-content {
+    margin-top: 2em;
+    width: 100%;
+    /* height:70vh; */
+    display: grid;
+    grid-template-areas:
+        "interest achievements education"
+        "pbackground pbackground  education"
+        "pbackground pbackground motto";
+    ;
+    grid-gap: 20px;
+    grid-template-columns: calc(80vw/3) calc(80vw/3) calc(80vw/3);
+    grid-template-rows: auto auto auto;
+}
+
+.newbio-content>div {
+    /* border: 1px solid gray; */
+    border-radius: 16px;
+    background-color: #151B23;
+    padding: 24px;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content:flex-end;
+}
+
+.newbio-content>div.interest {
+
+    grid-area: interest;
+}
+
+.gitem-header {
+    font-size: 24px;
+    color: var(--c-accent);
+    z-index: 5;
+}
+
+.gitem-des {
+    font-size: 14px;
+    color: white;
+    z-index: 5;
+}
+
+.gitem-illustration img {
+    width: 80%;
+    object-fit: contain;
+    margin: -40px auto;
+    /* border: 1px solid green; */
+}
+
+
+.newbio-content>div.achievements {
+    grid-area: achievements;
+    position: relative;
+}
+
+.achievements .gitem-illustration {
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-end;
+    /* border: 1px solid red; */
+}
+
+.achievements-img {
+    position: absolute;
+    z-index: 2;
+    width: 25% !important;
+    object-fit: contain;
+    /* border: 1px solid red; */
+    margin: 0;
+    top: 40px;
+    right: 10px;
+}
+
+.newbio-content>div.education {
+    grid-area: education;
+}
+
+.newbio-content>div.pbackground {
+    grid-area: pbackground;
+}
+
+.newbio-content>div.motto {
+    grid-area: motto;
+}
+
 
 /* ========================================================= */
 /* ==================== BIO-SECTION ==================== */
@@ -806,7 +901,7 @@ section.skills {
 }
 
 .skill-level-ind {
-   
+
     height: 10px;
     background: var(--c-accent);
     position: absolute;

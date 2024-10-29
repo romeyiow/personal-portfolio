@@ -5,7 +5,7 @@
     /* overflow: hidden; */
     height: auto;
     z-index: 2;
-    display: none;
+    /* display: none; */
 
     /* border: 1px solid red; */
     /* top: 0; */
@@ -19,14 +19,23 @@
     /* border: 1px dotted green; */
 }
 
-.nav-hero-des.left {
-    top:-15px;
-    left:130px;
+.nav-hero-des.bottom-left{
+    top:550px;
+    left:250px;
+}
+.nav-hero-des.mid-top{
+    top:0px;
+    left:500px;
 }
 
-.nav-hero-des.left img{
+.nav-hero-des.corner-top{
+    top:70px;
+    left:10px;
+}
+
+.nav-hero-des img{
     object-fit: contain;
-    width: 80%;
+    width: 70%;
     height: auto;
 }
 
