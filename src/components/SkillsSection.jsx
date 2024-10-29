@@ -124,7 +124,7 @@ function SkillStack() {
                 <h4>Skill Stack</h4>
                 <div>
 
-                    <img src="public\assets\images\skills\skill-stack.png" alt="" />
+                    <img src="assets/images/skills/skill-stack.png" alt="" />
                 </div>
 
             </div>
